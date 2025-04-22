@@ -8,7 +8,7 @@ builder.Services.AddDirectoryBrowser();
 
 var app = builder.Build();
 
-// Servir arquivos estáticos da pasta wwwroot
+// ServiR arquivos estáticos da pasta wwwroot
 app.UseDefaultFiles(); // Serve index.html por padrão
 app.UseStaticFiles(); // Permite servir arquivos da pasta wwwroot
 
